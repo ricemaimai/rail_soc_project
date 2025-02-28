@@ -1,0 +1,18 @@
+#CRC Codes for initially generated config files -- do not modify!
+dmadrv_config.h=1207334949
+emlib_core_debug_config.h=-212744839
+rail/radio_settings.radioconf=1396844384
+sl_device_init_dcdc_config.h=1955081430
+sl_device_init_emu_config.h=622680131
+sl_device_init_hfxo_config.h=1255225254
+sl_iostream_eusart_inst_config.h=1725101348
+sl_memory_config.h=-1749993755
+sl_rail_util_callbacks_config.h=-845407485
+sl_rail_util_init_inst0_config.h=-1445379089
+sl_rail_util_pa_config.h=722515443
+sl_rail_util_protocol_config.h=1633886273
+sl_rail_util_pti_config.h=167094148
+sl_rail_util_rssi_config.h=-2076214269
+sl_sleeptimer_config.h=1360009810
+sl_uartdrv_eusart_inst_config.h=1000109108
+uartdrv_config.h=-941504238

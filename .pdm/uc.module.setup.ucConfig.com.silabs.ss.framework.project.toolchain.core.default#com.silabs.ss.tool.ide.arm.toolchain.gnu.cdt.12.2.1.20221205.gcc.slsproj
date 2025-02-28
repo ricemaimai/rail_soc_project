@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="uc.module.setup.ucConfig.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
+  <folder name="config">
+    <folder name="rail">
+      <file name="radio_settings.radioconf" generated="true" linked="false"/>
+    </folder>
+    <file name="sl_memory_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_init_inst0_config.h" generated="true" linked="false"/>
+    <file name="sl_device_init_hfxo_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_pa_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_protocol_config.h" generated="true" linked="false"/>
+    <file name="sl_device_init_emu_config.h" generated="true" linked="false"/>
+    <file name="sl_device_init_dcdc_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_pti_config.h" generated="true" linked="false"/>
+    <file name="emlib_core_debug_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_callbacks_config.h" generated="true" linked="false"/>
+    <file name="sl_rail_util_rssi_config.h" generated="true" linked="false"/>
+    <file name="dmadrv_config.h" generated="true" linked="false"/>
+    <file name="sl_uartdrv_eusart_inst_config.h" generated="true" linked="false"/>
+    <file name="uartdrv_config.h" generated="true" linked="false"/>
+    <file name="sl_sleeptimer_config.h" generated="true" linked="false"/>
+    <file name="sl_iostream_eusart_inst_config.h" generated="true" linked="false"/>
+  </folder>
+  <includePath uri="studio:/project/config"/>
+  <includePath uri="studio:/project/config/rail"/>
+</project>
