@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
-  <descriptors name="rail_soc_empty_efr32_fg23B010_F512_IM40">
-    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.5._2034070388"/>
+  <descriptors name="rail_soc_project_test">
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.5._2138198490"/>
     <properties key="universalConfig.relativeWorkspacePath" value="..\rail_soc_empty_efr32_fg23B010_F512_IM40.slcw"/>
     <properties key="universalConfig.generationDirectory" value=""/>
     <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>

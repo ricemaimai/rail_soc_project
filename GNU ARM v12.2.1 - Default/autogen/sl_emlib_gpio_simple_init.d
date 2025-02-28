@@ -1,6 +1,9 @@
-gecko_sdk_4.4.5/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.o: \
- C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.c \
+autogen/sl_emlib_gpio_simple_init.o: \
+ ../autogen/sl_emlib_gpio_simple_init.c \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
+ c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h \
+ C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\config/sl_emlib_gpio_init_test_config.h \
+ c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h \
@@ -55,7 +58,6 @@ gecko_sdk_4.4.5/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h \
  C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\autogen/sl_component_catalog.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
@@ -63,23 +65,16 @@ gecko_sdk_4.4.5/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\config/emlib_core_debug_config.h \
+ c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
+ c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
  c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
- C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_features.h \
- C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\config/sl_rail_util_pa_config.h \
- C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h \
- C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/efr32xg23/sl_rail_util_pa_curves_14dbm.h \
- C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curve_types_efr32.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
- c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h
+ c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
+c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h:
+C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\config/sl_emlib_gpio_init_test_config.h:
+c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h:
@@ -134,7 +129,6 @@ c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h:
 C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\autogen/sl_component_catalog.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
@@ -142,19 +136,9 @@ c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_gene
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\config/emlib_core_debug_config.h:
+c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
+c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
-C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_features.h:
-C:\Users\Aoshima\SimplicityStudio\v5_workspace\rail_soc_project_test\config/sl_rail_util_pa_config.h:
-C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h:
-C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/efr32xg23/sl_rail_util_pa_curves_14dbm.h:
-C:/Users/Aoshima/SimplicityStudio/SDKs/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curve_types_efr32.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h:
-c:\users\aoshima\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h:

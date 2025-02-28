@@ -173,11 +173,11 @@
 // [MODEM]$
 
 // $[CUSTOM_PIN_NAME]
-#ifndef CTS_PORT                                
-#define CTS_PORT                                 gpioPortA
+#ifndef stx_PORT                                
+#define stx_PORT                                 gpioPortA
 #endif
-#ifndef CTS_PIN                                 
-#define CTS_PIN                                  0
+#ifndef stx_PIN                                 
+#define stx_PIN                                  0
 #endif
 
 #ifndef _PORT                                   
@@ -206,6 +206,13 @@
 #endif
 #ifndef RTS_PIN                                 
 #define RTS_PIN                                  6
+#endif
+
+#ifndef gpiotest_PORT                           
+#define gpiotest_PORT                            gpioPortA
+#endif
+#ifndef gpiotest_PIN                            
+#define gpiotest_PIN                             7
 #endif
 
 #ifndef UART2_PORT                              

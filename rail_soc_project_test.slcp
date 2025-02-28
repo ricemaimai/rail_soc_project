@@ -1,6 +1,6 @@
 # Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
-project_name: rail_soc_empty_efr32_fg23B010_F512_IM40
-label: rail_soc_empty_efr32_fg23B010_F512_IM40
+project_name: rail_soc_project_test
+label: rail_soc_project_test
 description: The RAIL Empty project is a barebone RAIL app that can be a basis of
   proprietary solutions. This comes prepared with a Single PHY radio configurator
   and a basic callback function for RAIL. With one click this baremetal sample app
@@ -33,6 +33,8 @@ toolchain_settings:
 component:
 - {id: EFR32FG23B010F512IM40}
 - {id: device_init}
+- instance: [test]
+  id: emlib_gpio_simple_init
 - instance: [inst]
   id: iostream_eusart
 - {id: iostream_retarget_stdio}

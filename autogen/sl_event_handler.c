@@ -11,6 +11,7 @@
 #include "sl_rail_util_rssi.h"
 #include "sl_rail_util_init.h"
 #include "sl_sleeptimer.h"
+#include "sl_emlib_gpio_simple_init.h"
 #include "gpiointerrupt.h"
 #include "sl_iostream_init_eusart_instances.h"
 #include "sl_mpu.h"
@@ -29,6 +30,7 @@ void sl_platform_init(void)
 
 void sl_driver_init(void)
 {
+  sl_emlib_gpio_simple_init();
   GPIOINT_Init();
   sl_uartdrv_init_instances();
 }
