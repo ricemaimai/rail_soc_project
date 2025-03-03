@@ -2,32 +2,34 @@
 <device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32FG23B010F512IM40" partId="mcu.arm.efr32.fg23.efr32fg23b010f512im40" contextId="com.silabs.sdk.stack.super:4.4.5._2034070388">
   <mode name="DefaultMode">
     <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
-    <property object="EUSART0" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_UARTDRV_EUSART_INST%T%sl_uartdrv_eusart_inst_config.h"/>
     <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="EUSART1" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_UARTDRV_EUSART_INST%T%sl_uartdrv_eusart_inst_config.h"/>
     <property object="EUSART1" propertyId="ABPeripheral.included" value="true"/>
     <property object="EUSART2" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_INST%T%sl_iostream_eusart_inst_config.h"/>
     <property object="EUSART2" propertyId="ABPeripheral.included" value="true"/>
-    <property object="PA00" propertyId="pin.name" value="stx"/>
+    <property object="PA00" propertyId="pin.name" value=""/>
     <property object="PA01" propertyId="pin.name" value=""/>
+    <property object="PA02" propertyId="pin.name" value=""/>
     <property object="PA03" propertyId="pin.name" value=""/>
-    <property object="PA04" propertyId="pin.name" value="eusart0_rx"/>
-    <property object="PA05" propertyId="pin.name" value="eusart0_tx"/>
-    <property object="PA06" propertyId="pin.name" value="RTS"/>
-    <property object="PA07" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_TEST%T%sl_emlib_gpio_init_test_config.h"/>
-    <property object="PA07" propertyId="pin.name" value="gpiotest"/>
-    <property object="PA07" propertyId="pin.reserve" value="Reserved"/>
-    <property object="PC05" propertyId="pin.name" value=""/>
-    <property object="PC06" propertyId="pin.name" value=""/>
-    <property object="PC07" propertyId="pin.name" value=""/>
+    <property object="PA04" propertyId="pin.name" value=""/>
+    <property object="PA05" propertyId="pin.name" value=""/>
+    <property object="PA06" propertyId="pin.name" value=""/>
+    <property object="PA07" propertyId="pin.name" value=""/>
+    <property object="PC04" propertyId="pin.name" value="RTS"/>
+    <property object="PC05" propertyId="pin.name" value="TX"/>
+    <property object="PC06" propertyId="pin.name" value="RX"/>
+    <property object="PC07" propertyId="pin.name" value="CTS"/>
     <property object="PD01" propertyId="pin.name" value="UART2"/>
     <property object="PD02" propertyId="pin.name" value="UART1"/>
-    <property object="PORTIO" propertyId="portio.eusart0.enable.cts" value="Enabled"/>
-    <property object="PORTIO" propertyId="portio.eusart0.enable.rts" value="Enabled"/>
-    <property object="PORTIO" propertyId="portio.eusart0.enable.rx" value="Enabled"/>
-    <property object="PORTIO" propertyId="portio.eusart0.enable.tx" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.cts" value="2"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.rts" value="3"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="1"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.cts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.rts" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.cts" value="39"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.rts" value="36"/>
     <property object="PORTIO" propertyId="portio.eusart1.location.rx" value="38"/>
     <property object="PORTIO" propertyId="portio.eusart1.location.tx" value="37"/>
     <property object="PORTIO" propertyId="portio.eusart2.enable.rx" value="Enabled"/>

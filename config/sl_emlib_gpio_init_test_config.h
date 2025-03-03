@@ -41,12 +41,6 @@
 
 // <gpio> SL_EMLIB_GPIO_INIT_TEST
 // $[GPIO_SL_EMLIB_GPIO_INIT_TEST]
-#ifndef SL_EMLIB_GPIO_INIT_TEST_PORT            
-#define SL_EMLIB_GPIO_INIT_TEST_PORT             gpioPortA
-#endif
-#ifndef SL_EMLIB_GPIO_INIT_TEST_PIN             
-#define SL_EMLIB_GPIO_INIT_TEST_PIN              7
-#endif
 // [GPIO_SL_EMLIB_GPIO_INIT_TEST]$
 
 // <<< sl:end pin_tool >>>

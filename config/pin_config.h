@@ -80,6 +80,38 @@
 // [I2C1]$
 
 // $[EUSART1]
+// EUSART1 CTS on PC07
+#ifndef EUSART1_CTS_PORT                        
+#define EUSART1_CTS_PORT                         gpioPortC
+#endif
+#ifndef EUSART1_CTS_PIN                         
+#define EUSART1_CTS_PIN                          7
+#endif
+
+// EUSART1 RTS on PC04
+#ifndef EUSART1_RTS_PORT                        
+#define EUSART1_RTS_PORT                         gpioPortC
+#endif
+#ifndef EUSART1_RTS_PIN                         
+#define EUSART1_RTS_PIN                          4
+#endif
+
+// EUSART1 RX on PC06
+#ifndef EUSART1_RX_PORT                         
+#define EUSART1_RX_PORT                          gpioPortC
+#endif
+#ifndef EUSART1_RX_PIN                          
+#define EUSART1_RX_PIN                           6
+#endif
+
+// EUSART1 TX on PC05
+#ifndef EUSART1_TX_PORT                         
+#define EUSART1_TX_PORT                          gpioPortC
+#endif
+#ifndef EUSART1_TX_PIN                          
+#define EUSART1_TX_PIN                           5
+#endif
+
 // [EUSART1]$
 
 // $[EUSART2]
@@ -132,38 +164,6 @@
 // [I2C0]$
 
 // $[EUSART0]
-// EUSART0 CTS on PA02
-#ifndef EUSART0_CTS_PORT                        
-#define EUSART0_CTS_PORT                         gpioPortA
-#endif
-#ifndef EUSART0_CTS_PIN                         
-#define EUSART0_CTS_PIN                          2
-#endif
-
-// EUSART0 RTS on PA03
-#ifndef EUSART0_RTS_PORT                        
-#define EUSART0_RTS_PORT                         gpioPortA
-#endif
-#ifndef EUSART0_RTS_PIN                         
-#define EUSART0_RTS_PIN                          3
-#endif
-
-// EUSART0 RX on PA01
-#ifndef EUSART0_RX_PORT                         
-#define EUSART0_RX_PORT                          gpioPortA
-#endif
-#ifndef EUSART0_RX_PIN                          
-#define EUSART0_RX_PIN                           1
-#endif
-
-// EUSART0 TX on PA00
-#ifndef EUSART0_TX_PORT                         
-#define EUSART0_TX_PORT                          gpioPortA
-#endif
-#ifndef EUSART0_TX_PIN                          
-#define EUSART0_TX_PIN                           0
-#endif
-
 // [EUSART0]$
 
 // $[PTI]
@@ -173,46 +173,39 @@
 // [MODEM]$
 
 // $[CUSTOM_PIN_NAME]
-#ifndef stx_PORT                                
-#define stx_PORT                                 gpioPortA
-#endif
-#ifndef stx_PIN                                 
-#define stx_PIN                                  0
-#endif
-
 #ifndef _PORT                                   
 #define _PORT                                    gpioPortA
 #endif
 #ifndef _PIN                                    
-#define _PIN                                     1
-#endif
-
-#ifndef eusart0_rx_PORT                         
-#define eusart0_rx_PORT                          gpioPortA
-#endif
-#ifndef eusart0_rx_PIN                          
-#define eusart0_rx_PIN                           4
-#endif
-
-#ifndef eusart0_tx_PORT                         
-#define eusart0_tx_PORT                          gpioPortA
-#endif
-#ifndef eusart0_tx_PIN                          
-#define eusart0_tx_PIN                           5
+#define _PIN                                     0
 #endif
 
 #ifndef RTS_PORT                                
-#define RTS_PORT                                 gpioPortA
+#define RTS_PORT                                 gpioPortC
 #endif
 #ifndef RTS_PIN                                 
-#define RTS_PIN                                  6
+#define RTS_PIN                                  4
 #endif
 
-#ifndef gpiotest_PORT                           
-#define gpiotest_PORT                            gpioPortA
+#ifndef TX_PORT                                 
+#define TX_PORT                                  gpioPortC
 #endif
-#ifndef gpiotest_PIN                            
-#define gpiotest_PIN                             7
+#ifndef TX_PIN                                  
+#define TX_PIN                                   5
+#endif
+
+#ifndef RX_PORT                                 
+#define RX_PORT                                  gpioPortC
+#endif
+#ifndef RX_PIN                                  
+#define RX_PIN                                   6
+#endif
+
+#ifndef CTS_PORT                                
+#define CTS_PORT                                 gpioPortC
+#endif
+#ifndef CTS_PIN                                 
+#define CTS_PIN                                  7
 #endif
 
 #ifndef UART2_PORT                              

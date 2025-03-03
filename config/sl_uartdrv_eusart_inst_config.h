@@ -96,42 +96,42 @@
 // <eusart signal=TX,RX,(CTS),(RTS)> SL_UARTDRV_EUSART_INST
 // $[EUSART_SL_UARTDRV_EUSART_INST]
 #ifndef SL_UARTDRV_EUSART_INST_PERIPHERAL       
-#define SL_UARTDRV_EUSART_INST_PERIPHERAL        EUSART0
+#define SL_UARTDRV_EUSART_INST_PERIPHERAL        EUSART1
 #endif
 #ifndef SL_UARTDRV_EUSART_INST_PERIPHERAL_NO    
-#define SL_UARTDRV_EUSART_INST_PERIPHERAL_NO     0
+#define SL_UARTDRV_EUSART_INST_PERIPHERAL_NO     1
 #endif
 
-// EUSART0 TX on PA00
+// EUSART1 TX on PC05
 #ifndef SL_UARTDRV_EUSART_INST_TX_PORT          
-#define SL_UARTDRV_EUSART_INST_TX_PORT           gpioPortA
+#define SL_UARTDRV_EUSART_INST_TX_PORT           gpioPortC
 #endif
 #ifndef SL_UARTDRV_EUSART_INST_TX_PIN           
-#define SL_UARTDRV_EUSART_INST_TX_PIN            0
+#define SL_UARTDRV_EUSART_INST_TX_PIN            5
 #endif
 
-// EUSART0 RX on PA01
+// EUSART1 RX on PC06
 #ifndef SL_UARTDRV_EUSART_INST_RX_PORT          
-#define SL_UARTDRV_EUSART_INST_RX_PORT           gpioPortA
+#define SL_UARTDRV_EUSART_INST_RX_PORT           gpioPortC
 #endif
 #ifndef SL_UARTDRV_EUSART_INST_RX_PIN           
-#define SL_UARTDRV_EUSART_INST_RX_PIN            1
+#define SL_UARTDRV_EUSART_INST_RX_PIN            6
 #endif
 
-// EUSART0 CTS on PA02
+// EUSART1 CTS on PC07
 #ifndef SL_UARTDRV_EUSART_INST_CTS_PORT         
-#define SL_UARTDRV_EUSART_INST_CTS_PORT          gpioPortA
+#define SL_UARTDRV_EUSART_INST_CTS_PORT          gpioPortC
 #endif
 #ifndef SL_UARTDRV_EUSART_INST_CTS_PIN          
-#define SL_UARTDRV_EUSART_INST_CTS_PIN           2
+#define SL_UARTDRV_EUSART_INST_CTS_PIN           7
 #endif
 
-// EUSART0 RTS on PA03
+// EUSART1 RTS on PC04
 #ifndef SL_UARTDRV_EUSART_INST_RTS_PORT         
-#define SL_UARTDRV_EUSART_INST_RTS_PORT          gpioPortA
+#define SL_UARTDRV_EUSART_INST_RTS_PORT          gpioPortC
 #endif
 #ifndef SL_UARTDRV_EUSART_INST_RTS_PIN          
-#define SL_UARTDRV_EUSART_INST_RTS_PIN           3
+#define SL_UARTDRV_EUSART_INST_RTS_PIN           4
 #endif
 // [EUSART_SL_UARTDRV_EUSART_INST]$
 // <<< sl:end pin_tool >>>
