@@ -95,20 +95,20 @@
 #define SL_IOSTREAM_EUSART_INST_PERIPHERAL_NO    2
 #endif
 
-// EUSART2 TX on PD02
+// EUSART2 TX on PD01
 #ifndef SL_IOSTREAM_EUSART_INST_TX_PORT         
 #define SL_IOSTREAM_EUSART_INST_TX_PORT          gpioPortD
 #endif
 #ifndef SL_IOSTREAM_EUSART_INST_TX_PIN          
-#define SL_IOSTREAM_EUSART_INST_TX_PIN           2
+#define SL_IOSTREAM_EUSART_INST_TX_PIN           1
 #endif
 
-// EUSART2 RX on PD01
+// EUSART2 RX on PD02
 #ifndef SL_IOSTREAM_EUSART_INST_RX_PORT         
 #define SL_IOSTREAM_EUSART_INST_RX_PORT          gpioPortD
 #endif
 #ifndef SL_IOSTREAM_EUSART_INST_RX_PIN          
-#define SL_IOSTREAM_EUSART_INST_RX_PIN           1
+#define SL_IOSTREAM_EUSART_INST_RX_PIN           2
 #endif
 
 // [EUSART_SL_IOSTREAM_EUSART_INST]$

@@ -32,6 +32,9 @@
 //                                   Includes
 // -----------------------------------------------------------------------------
 #include "sl_rail_util_init.h"
+#include <stdio.h>
+#include "sl_iostream_init_instances.h"
+#include "sl_iostream.h"
 
 // -----------------------------------------------------------------------------
 //                              Macros and Typedefs
@@ -59,7 +62,9 @@ RAIL_Handle_t app_init(void)
 {
   // Get RAIL handle, used later by the application
   RAIL_Handle_t rail_handle = sl_rail_util_get_handle(SL_RAIL_UTIL_HANDLE_INST0);
-
+  sl_iostream_init_instances();
+  printf("hello\n");
+  //puts("hello");
   /////////////////////////////////////////////////////////////////////////////
   // Put your application init code here!                                    //
   // This is called once during start-up.                                    //

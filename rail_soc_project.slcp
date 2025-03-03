@@ -1,6 +1,6 @@
 # Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
-project_name: rail_soc_project_test
-label: rail_soc_project_test
+project_name: rail_soc_project
+label: rail_soc_project
 description: The RAIL Empty project is a barebone RAIL app that can be a basis of
   proprietary solutions. This comes prepared with a Single PHY radio configurator
   and a basic callback function for RAIL. With one click this baremetal sample app
