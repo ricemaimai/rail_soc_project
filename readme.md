@@ -1,6 +1,10 @@
 # 議事録
 
-阪木
+2025/03/03阪木
+・Lチカができるようにapp_process.cに変更を行いました。
+・今はIADCを使ってCPUの電圧を表示しようとしています。
+
+
 ## Report Bugs & Get Support
 
 You are always encouraged and welcome to report any issues you found to us via
