@@ -180,6 +180,20 @@
 #define _PIN                                     0
 #endif
 
+#ifndef LED1_PORT                               
+#define LED1_PORT                                gpioPortA
+#endif
+#ifndef LED1_PIN                                
+#define LED1_PIN                                 7
+#endif
+
+#ifndef LED2_PORT                               
+#define LED2_PORT                                gpioPortA
+#endif
+#ifndef LED2_PIN                                
+#define LED2_PIN                                 8
+#endif
+
 #ifndef RTS_PORT                                
 #define RTS_PORT                                 gpioPortC
 #endif

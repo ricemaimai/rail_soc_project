@@ -2,7 +2,8 @@ autogen/sl_emlib_gpio_simple_init.o: \
  ../autogen/sl_emlib_gpio_simple_init.c \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_test_config.h \
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED1_config.h \
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED2_config.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h \
@@ -73,7 +74,8 @@ autogen/sl_emlib_gpio_simple_init.o: \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_test_config.h:
+C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED1_config.h:
+C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED2_config.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h:

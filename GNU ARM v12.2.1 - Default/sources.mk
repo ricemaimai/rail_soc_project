@@ -35,4 +35,5 @@ gecko_sdk_4.4.5/platform/service/iostream/src \
 gecko_sdk_4.4.5/platform/service/mpu/src \
 gecko_sdk_4.4.5/platform/service/sleeptimer/src \
 gecko_sdk_4.4.5/platform/service/system/src \
+gecko_sdk_4.4.5/platform/service/udelay/src \
 

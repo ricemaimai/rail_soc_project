@@ -166,6 +166,15 @@
             <file name="sli_sleeptimer.h" uri="studio:/sdk/platform/service/sleeptimer/inc/sli_sleeptimer.h"/>
           </folder>
         </folder>
+        <folder name="udelay">
+          <folder name="src">
+            <file name="sl_udelay.c" uri="studio:/sdk/platform/service/udelay/src/sl_udelay.c"/>
+            <file name="sl_udelay_armv6m_gcc.S" uri="studio:/sdk/platform/service/udelay/src/sl_udelay_armv6m_gcc.S"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_udelay.h" uri="studio:/sdk/platform/service/udelay/inc/sl_udelay.h"/>
+          </folder>
+        </folder>
       </folder>
       <folder name="emdrv">
         <folder name="dmadrv">
@@ -364,6 +373,7 @@
   <includePath uri="studio:/sdk/platform/service/system/inc"/>
   <includePath uri="studio:/sdk/platform/service/sleeptimer/inc"/>
   <includePath uri="studio:/sdk/platform/emdrv/uartdrv/inc"/>
+  <includePath uri="studio:/sdk/platform/service/udelay/inc"/>
   <macroDefinition name="EFR32FG23B010F512IM40"/>
   <macroDefinition name="SL_COMPONENT_CATALOG_PRESENT"/>
   <macroDefinition name="SL_RAIL_LIB_MULTIPROTOCOL_SUPPORT" value="0"/>

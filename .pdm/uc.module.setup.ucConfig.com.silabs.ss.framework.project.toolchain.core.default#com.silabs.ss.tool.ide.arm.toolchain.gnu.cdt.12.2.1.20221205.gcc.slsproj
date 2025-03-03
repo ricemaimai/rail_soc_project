@@ -5,7 +5,8 @@
       <file name="radio_settings.radioconf" generated="true" linked="false"/>
     </folder>
     <file name="sl_memory_config.h" generated="true" linked="false"/>
-    <file name="sl_emlib_gpio_init_test_config.h" generated="true" linked="false"/>
+    <file name="sl_emlib_gpio_init_LED1_config.h" generated="true" linked="false"/>
+    <file name="sl_emlib_gpio_init_LED2_config.h" generated="true" linked="false"/>
     <file name="sl_rail_util_init_inst0_config.h" generated="true" linked="false"/>
     <file name="sl_device_init_emu_config.h" generated="true" linked="false"/>
     <file name="sl_device_init_dcdc_config.h" generated="true" linked="false"/>

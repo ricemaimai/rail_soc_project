@@ -36,6 +36,14 @@
 #include "sl_iostream_init_instances.h"
 #include "sl_iostream.h"
 
+#include "em_gpio.h"
+
+#define LED1_PORT gpioPortA
+#define LED1_PIN  7
+#define LED2_PORT gpioPortA
+#define LED2_PIN  8
+
+
 // -----------------------------------------------------------------------------
 //                              Macros and Typedefs
 // -----------------------------------------------------------------------------
@@ -64,7 +72,15 @@ RAIL_Handle_t app_init(void)
   RAIL_Handle_t rail_handle = sl_rail_util_get_handle(SL_RAIL_UTIL_HANDLE_INST0);
   sl_iostream_init_instances();
   printf("hello\n");
-  //puts("hello");
+
+
+
+
+  // LED1 (PA07) を ON（Low: Open Drain）
+  GPIO_PinOutClear(LED1_PORT, LED1_PIN);
+
+  // LED2 (PA08) を ON（Low: Open Drain）
+  GPIO_PinOutClear(LED2_PORT, LED2_PIN);
   /////////////////////////////////////////////////////////////////////////////
   // Put your application init code here!                                    //
   // This is called once during start-up.                                    //

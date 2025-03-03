@@ -38,6 +38,13 @@
 #include "app_task_init.h"
 #endif
 
+#include "em_gpio.h"
+#include "sl_udelay.h"
+#define LED1_PORT gpioPortA
+#define LED1_PIN  7
+#define LED2_PORT gpioPortA
+#define LED2_PIN  8
+
 // -----------------------------------------------------------------------------
 //                              Macros and Typedefs
 // -----------------------------------------------------------------------------
@@ -63,6 +70,23 @@
 void app_process_action(RAIL_Handle_t rail_handle)
 {
   (void) rail_handle;
+
+
+
+  // LED1 (PA07) を ON（Low: Open Drain）
+  GPIO_PinOutClear(LED1_PORT, LED1_PIN);
+
+  // LED2 (PA08) を ON（Low: Open Drain）
+  GPIO_PinOutClear(LED2_PORT, LED2_PIN);
+
+  sl_udelay_wait(1000000);
+
+  GPIO_PinOutSet(LED1_PORT, LED1_PIN);
+  GPIO_PinOutSet(LED2_PORT, LED2_PIN);
+
+  sl_udelay_wait(1000000);
+
+
 
   ///////////////////////////////////////////////////////////////////////////
   // Put your application code here!                                       //

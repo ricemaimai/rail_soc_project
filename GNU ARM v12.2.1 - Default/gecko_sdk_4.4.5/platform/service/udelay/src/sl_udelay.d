@@ -1,10 +1,7 @@
-app_init.o: ../app_init.c \
+gecko_sdk_4.4.5/platform/service/udelay/src/sl_udelay.o: \
+ C:/Users/ricem/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/src/sl_udelay.c \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_rail_util_init.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_features.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h \
@@ -59,27 +56,9 @@ app_init.o: ../app_init.c \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h \
  C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_component_catalog.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_rail_util_init_inst0_config.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_iostream_init_instances.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/emlib_core_debug_config.h
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_rail_util_init.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_features.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h:
@@ -134,18 +113,4 @@ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h:
 C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_component_catalog.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_rail_util_init_inst0_config.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_iostream_init_instances.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/emlib_core_debug_config.h:

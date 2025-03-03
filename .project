@@ -561,6 +561,21 @@
 			<locationURI>STUDIO_SDK_LOC/platform/service/system/src/sl_system_process_action.c</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.4.5/platform/service/udelay/inc/sl_udelay.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/udelay/inc/sl_udelay.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/platform/service/udelay/src/sl_udelay.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/udelay/src/sl_udelay.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/platform/service/udelay/src/sl_udelay_armv6m_gcc.S</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/udelay/src/sl_udelay_armv6m_gcc.S</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.4.5/platform/Device/SiliconLabs/EFR32FG23/Include/efr32fg23_acmp.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/Device/SiliconLabs/EFR32FG23/Include/efr32fg23_acmp.h</locationURI>

@@ -33,7 +33,7 @@ toolchain_settings:
 component:
 - {id: EFR32FG23B010F512IM40}
 - {id: device_init}
-- instance: [test]
+- instance: [LED1, LED2]
   id: emlib_gpio_simple_init
 - instance: [inst]
   id: iostream_eusart
@@ -47,6 +47,7 @@ component:
 - {id: sl_system}
 - instance: [inst]
   id: uartdrv_eusart
+- {id: udelay}
 requires:
 - {name: a_radio_config}
 configuration:
