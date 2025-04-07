@@ -140,6 +140,22 @@
 // [LETIMER0]$
 
 // $[IADC0]
+// IADC0 SCAN0POS on PC03
+#ifndef IADC0_SCAN0POS_PORT                     
+#define IADC0_SCAN0POS_PORT                      gpioPortC
+#endif
+#ifndef IADC0_SCAN0POS_PIN                      
+#define IADC0_SCAN0POS_PIN                       3
+#endif
+
+// IADC0 SCAN10POS on PC02
+#ifndef IADC0_SCAN10POS_PORT                    
+#define IADC0_SCAN10POS_PORT                     gpioPortC
+#endif
+#ifndef IADC0_SCAN10POS_PIN                     
+#define IADC0_SCAN10POS_PIN                      2
+#endif
+
 // [IADC0]$
 
 // $[ACMP0]
@@ -194,6 +210,20 @@
 #define LED2_PIN                                 8
 #endif
 
+#ifndef AD_VA_PORT                              
+#define AD_VA_PORT                               gpioPortC
+#endif
+#ifndef AD_VA_PIN                               
+#define AD_VA_PIN                                2
+#endif
+
+#ifndef AD_VB_PORT                              
+#define AD_VB_PORT                               gpioPortC
+#endif
+#ifndef AD_VB_PIN                               
+#define AD_VB_PIN                                3
+#endif
+
 #ifndef RTS_PORT                                
 #define RTS_PORT                                 gpioPortC
 #endif
@@ -234,6 +264,13 @@
 #endif
 #ifndef UART1_PIN                               
 #define UART1_PIN                                2
+#endif
+
+#ifndef AVDD_EN_PORT                            
+#define AVDD_EN_PORT                             gpioPortD
+#endif
+#ifndef AVDD_EN_PIN                             
+#define AVDD_EN_PIN                              3
 #endif
 
 // [CUSTOM_PIN_NAME]$

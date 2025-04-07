@@ -62,10 +62,11 @@ app_init.o: ../app_init.c \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h \
  C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_rail_util_init_inst0_config.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_iostream_init_instances.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\uartdrv\inc\uartdrv.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_usart.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart_compat.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
@@ -73,7 +74,22 @@ app_init.o: ../app_init.c \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/emlib_core_debug_config.h
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/emlib_core_debug_config.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h \
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/uartdrv_config.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/dmadrv_config.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_iadc.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system_generic.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_rail_util_init.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h:
@@ -137,10 +153,11 @@ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_compone
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h:
 C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_rail_util_init_inst0_config.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_iostream_init_instances.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\uartdrv\inc\uartdrv.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_usart.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart_compat.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
@@ -149,3 +166,18 @@ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generi
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/emlib_core_debug_config.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h:
+C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/uartdrv_config.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
+C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/dmadrv_config.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_iadc.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system_generic.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:

@@ -33,15 +33,37 @@
 // -----------------------------------------------------------------------------
 #include "sl_rail_util_init.h"
 #include <stdio.h>
-#include "sl_iostream_init_instances.h"
-#include "sl_iostream.h"
+#include "uartdrv.h"
 
+#include "stdio.h"
+#include "em_device.h"
+#include "em_cmu.h"
+#include "em_iadc.h"
 #include "em_gpio.h"
+#include "sl_udelay.h"
 
+
+// -----------------------------------------------------------------------------
+//                                Defines
+// -----------------------------------------------------------------------------
 #define LED1_PORT gpioPortA
 #define LED1_PIN  7
 #define LED2_PORT gpioPortA
 #define LED2_PIN  8
+
+#define AD_VA_CHANNEL iadcPosInputPortCPin10  // PC02 = IADC0_SCAN10POS
+#define AD_VB_CHANNEL iadcPosInputPortCPin0   // PC03 = IADC0_SCAN0POS
+
+// AVDD_EN 用の GPIO 設定
+#define AVDD_EN_PORT gpioPortD
+#define AVDD_EN_PIN  3
+#define AVDD_VOLTAGE 3.3f
+
+
+#define CLK_SRC_ADC_FREQ          20000000
+#define CLK_ADC_FREQ              10000000
+
+
 
 
 // -----------------------------------------------------------------------------
@@ -66,21 +88,48 @@
 /******************************************************************************
  * The function is used for some basic initialization related to the app.
  *****************************************************************************/
+void avdd_enable(void)
+{
+    CMU_ClockEnable(cmuClock_GPIO, true);
+    GPIO_PinModeSet(AVDD_EN_PORT, AVDD_EN_PIN, gpioModeWiredAnd, 1);
+    GPIO_PinOutSet(AVDD_EN_PORT, AVDD_EN_PIN);
+    //GPIO_PinOutClear(AVDD_EN_PORT, AVDD_EN_PIN);
+
+
+
+    sl_udelay_wait(1000); // 少し待機して安定させる（1ms）
+}
+
+void iadc_gpio_init(void)
+{
+    // PC02 / PC03 を IADC 入力モードに設定
+    CMU_ClockEnable(cmuClock_GPIO, true);
+    GPIO_PinModeSet(gpioPortC, 2, gpioModeDisabled, 0); // PC02 (AD_VA)
+    GPIO_PinModeSet(gpioPortC, 3, gpioModeDisabled, 0); // PC03 (AD_VB)
+}
+
+
+
+
+
+
 RAIL_Handle_t app_init(void)
 {
   // Get RAIL handle, used later by the application
   RAIL_Handle_t rail_handle = sl_rail_util_get_handle(SL_RAIL_UTIL_HANDLE_INST0);
   sl_iostream_init_instances();
+
   printf("hello\n");
 
+  printf("IADC Initialized\n");
+
+  avdd_enable();
+  iadc_gpio_init();
 
 
 
-  // LED1 (PA07) を ON（Low: Open Drain）
-  GPIO_PinOutClear(LED1_PORT, LED1_PIN);
 
-  // LED2 (PA08) を ON（Low: Open Drain）
-  GPIO_PinOutClear(LED2_PORT, LED2_PIN);
+
   /////////////////////////////////////////////////////////////////////////////
   // Put your application init code here!                                    //
   // This is called once during start-up.                                    //

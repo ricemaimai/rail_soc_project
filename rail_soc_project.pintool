@@ -20,12 +20,17 @@
     <property object="PA08" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_LED2%T%sl_emlib_gpio_init_LED2_config.h"/>
     <property object="PA08" propertyId="pin.name" value="LED2"/>
     <property object="PA08" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC02" propertyId="pin.name" value="AD_VA"/>
+    <property object="PC03" propertyId="pin.name" value="AD_VB"/>
     <property object="PC04" propertyId="pin.name" value="RTS"/>
     <property object="PC05" propertyId="pin.name" value="TX"/>
     <property object="PC06" propertyId="pin.name" value="RX"/>
     <property object="PC07" propertyId="pin.name" value="CTS"/>
     <property object="PD01" propertyId="pin.name" value="UART2"/>
     <property object="PD02" propertyId="pin.name" value="UART1"/>
+    <property object="PD03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_AVDD_EN%T%sl_emlib_gpio_init_AVDD_EN_config.h"/>
+    <property object="PD03" propertyId="pin.name" value="AVDD_EN"/>
+    <property object="PD03" propertyId="pin.reserve" value="Reserved"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.cts" value="2"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.rts" value="3"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="1"/>
@@ -41,6 +46,11 @@
     <property object="PORTIO" propertyId="portio.eusart2.enable.tx" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.eusart2.location.rx" value="49"/>
     <property object="PORTIO" propertyId="portio.eusart2.location.tx" value="50"/>
+    <property object="PORTIO" propertyId="portio.iadc0.enable.scan0pos" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.iadc0.enable.scan10pos" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.iadc0.location.pos" value="162"/>
+    <property object="PORTIO" propertyId="portio.iadc0.location.scan0pos" value="163"/>
+    <property object="PORTIO" propertyId="portio.iadc0.location.scan10pos" value="162"/>
     <property object="PTI" propertyId="ABModule.selectedRequirement" value="pti%T%SL_RAIL_UTIL_PTI%T%sl_rail_util_pti_config.h"/>
     <property object="PTI" propertyId="ABPeripheral.included" value="true"/>
   </mode>

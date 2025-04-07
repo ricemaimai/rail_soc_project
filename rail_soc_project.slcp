@@ -33,8 +33,9 @@ toolchain_settings:
 component:
 - {id: EFR32FG23B010F512IM40}
 - {id: device_init}
-- instance: [LED1, LED2]
+- instance: [AVDD_EN, LED1, LED2]
   id: emlib_gpio_simple_init
+- {id: emlib_iadc}
 - instance: [inst]
   id: iostream_eusart
 - {id: iostream_retarget_stdio}
