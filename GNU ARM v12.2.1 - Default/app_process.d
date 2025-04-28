@@ -76,7 +76,8 @@ app_process.o: ../app_process.c \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system_generic.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h \
+ ../app_init.h
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_component_catalog.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h:
@@ -155,3 +156,4 @@ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_system_generic.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:
+../app_init.h:

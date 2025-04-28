@@ -8,6 +8,9 @@
     <file name="sl_emlib_gpio_init_AVDD_EN_config.h" generated="true" linked="false"/>
     <file name="sl_emlib_gpio_init_LED1_config.h" generated="true" linked="false"/>
     <file name="sl_emlib_gpio_init_LED2_config.h" generated="true" linked="false"/>
+    <file name="sl_emlib_gpio_init_WL_CLK_config.h" generated="true" linked="false"/>
+    <file name="sl_emlib_gpio_init_WL_CSX_config.h" generated="true" linked="false"/>
+    <file name="sl_emlib_gpio_init_WL_DAT_config.h" generated="true" linked="false"/>
     <file name="sl_iostream_eusart_inst_config.h" generated="true" linked="false"/>
     <file name="sl_rail_util_init_inst0_config.h" generated="true" linked="false"/>
     <file name="sl_uartdrv_eusart_inst_config.h" generated="true" linked="false"/>

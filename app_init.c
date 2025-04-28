@@ -51,8 +51,10 @@
 #define LED2_PORT gpioPortA
 #define LED2_PIN  8
 
-#define AD_VA_CHANNEL iadcPosInputPortCPin10  // PC02 = IADC0_SCAN10POS
-#define AD_VB_CHANNEL iadcPosInputPortCPin0   // PC03 = IADC0_SCAN0POS
+
+//ADC 用の PIN設定
+#define AD_VA_CHANNEL iadcPosInputPortCPin2 // PC02 = IADC0_SCAN10POS
+#define AD_VB_CHANNEL iadcPosInputPortCPin3   // PC03 = IADC0_SCAN0POS
 
 // AVDD_EN 用の GPIO 設定
 #define AVDD_EN_PORT gpioPortD
@@ -62,6 +64,14 @@
 
 #define CLK_SRC_ADC_FREQ          20000000
 #define CLK_ADC_FREQ              10000000
+
+//LTC2431　用の GPIO　設定
+#define LTC2431_CS_PORT   gpioPortB
+#define LTC2431_CS_PIN    1
+#define LTC2431_CLK_PORT  gpioPortA
+#define LTC2431_CLK_PIN   6
+#define LTC2431_DAT_PORT  gpioPortA
+#define LTC2431_DAT_PIN   5
 
 
 
@@ -91,7 +101,7 @@
 void avdd_enable(void)
 {
     CMU_ClockEnable(cmuClock_GPIO, true);
-    GPIO_PinModeSet(AVDD_EN_PORT, AVDD_EN_PIN, gpioModeWiredAnd, 1);
+
     GPIO_PinOutSet(AVDD_EN_PORT, AVDD_EN_PIN);
     //GPIO_PinOutClear(AVDD_EN_PORT, AVDD_EN_PIN);
 
@@ -104,10 +114,23 @@ void iadc_gpio_init(void)
 {
     // PC02 / PC03 を IADC 入力モードに設定
     CMU_ClockEnable(cmuClock_GPIO, true);
-    GPIO_PinModeSet(gpioPortC, 2, gpioModeDisabled, 0); // PC02 (AD_VA)
-    GPIO_PinModeSet(gpioPortC, 3, gpioModeDisabled, 0); // PC03 (AD_VB)
+    GPIO_PinOutSet(gpioPortC, 2); // PC02 (AD_VA)
+    GPIO_PinOutSet(gpioPortC, 3); // PC03 (AD_VB)
 }
 
+void ltc2431_gpio_init(void)
+{
+    CMU_ClockEnable(cmuClock_GPIO, true);
+
+    // CS: PB01 → 初期Highで変換スタンバイ
+    GPIO_PinOutClear(gpioPortB, 1);
+
+    // CLK: PA06 → 初期Low（アイドル）
+    GPIO_PinOutSet(gpioPortA, 6);
+
+    // DAT: PA05 → 入力
+    GPIO_PinOutClear(gpioPortA, 5);
+}
 
 
 
@@ -125,6 +148,7 @@ RAIL_Handle_t app_init(void)
 
   avdd_enable();
   iadc_gpio_init();
+  ltc2431_gpio_init();
 
 
 

@@ -74,6 +74,14 @@
 // [TIMER4]$
 
 // $[USART0]
+// USART0 TX on PC00
+#ifndef USART0_TX_PORT                          
+#define USART0_TX_PORT                           gpioPortC
+#endif
+#ifndef USART0_TX_PIN                           
+#define USART0_TX_PIN                            0
+#endif
+
 // [USART0]$
 
 // $[I2C1]
@@ -196,6 +204,20 @@
 #define _PIN                                     0
 #endif
 
+#ifndef WL_DAT_PORT                             
+#define WL_DAT_PORT                              gpioPortA
+#endif
+#ifndef WL_DAT_PIN                              
+#define WL_DAT_PIN                               5
+#endif
+
+#ifndef WL_CLK_PORT                             
+#define WL_CLK_PORT                              gpioPortA
+#endif
+#ifndef WL_CLK_PIN                              
+#define WL_CLK_PIN                               6
+#endif
+
 #ifndef LED1_PORT                               
 #define LED1_PORT                                gpioPortA
 #endif
@@ -208,6 +230,13 @@
 #endif
 #ifndef LED2_PIN                                
 #define LED2_PIN                                 8
+#endif
+
+#ifndef WL_CSX_PORT                             
+#define WL_CSX_PORT                              gpioPortB
+#endif
+#ifndef WL_CSX_PIN                              
+#define WL_CSX_PIN                               1
 #endif
 
 #ifndef AD_VA_PORT                              

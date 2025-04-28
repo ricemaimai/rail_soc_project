@@ -1,14 +1,7 @@
-autogen/sl_emlib_gpio_simple_init.o: \
- ../autogen/sl_emlib_gpio_simple_init.c \
+gecko_sdk_4.4.5/platform/emdrv/spidrv/src/spidrv.o: \
+ C:/Users/ricem/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/spidrv/src/spidrv.c \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_AVDD_EN_config.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED1_config.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED2_config.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_WL_CLK_config.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_WL_CSX_config.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_WL_DAT_config.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_component_catalog.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h \
@@ -62,7 +55,7 @@ autogen/sl_emlib_gpio_simple_init.o: \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_prs_signals.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h \
- C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_component_catalog.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
@@ -71,20 +64,25 @@ autogen/sl_emlib_gpio_simple_init.o: \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/emlib_core_debug_config.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_usart.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart_compat.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/dmadrv_config.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spidrv.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
- c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
+ C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/spidrv_config.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
+ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_AVDD_EN_config.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED1_config.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_LED2_config.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_WL_CLK_config.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_WL_CSX_config.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/sl_emlib_gpio_init_WL_DAT_config.h:
-c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
+C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_component_catalog.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im40.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h:
@@ -138,7 +136,7 @@ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_prs_signals.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h:
-C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\autogen/sl_component_catalog.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
@@ -147,8 +145,20 @@ c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/emlib_core_debug_config.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_usart.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_eusart_compat.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
+C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/dmadrv_config.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spidrv.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
+C:\Users\ricem\SimplicityStudio\v5_workspace\rail_soc_project\config/spidrv_config.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
+c:\users\ricem\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h:

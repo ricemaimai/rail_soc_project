@@ -12,14 +12,21 @@
     <property object="PA02" propertyId="pin.name" value=""/>
     <property object="PA03" propertyId="pin.name" value=""/>
     <property object="PA04" propertyId="pin.name" value=""/>
-    <property object="PA05" propertyId="pin.name" value=""/>
-    <property object="PA06" propertyId="pin.name" value=""/>
+    <property object="PA05" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_WL_DAT%T%sl_emlib_gpio_init_WL_DAT_config.h"/>
+    <property object="PA05" propertyId="pin.name" value="WL_DAT"/>
+    <property object="PA05" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA06" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_WL_CLK%T%sl_emlib_gpio_init_WL_CLK_config.h"/>
+    <property object="PA06" propertyId="pin.name" value="WL_CLK"/>
+    <property object="PA06" propertyId="pin.reserve" value="Reserved"/>
     <property object="PA07" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_LED1%T%sl_emlib_gpio_init_LED1_config.h"/>
     <property object="PA07" propertyId="pin.name" value="LED1"/>
     <property object="PA07" propertyId="pin.reserve" value="Reserved"/>
     <property object="PA08" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_LED2%T%sl_emlib_gpio_init_LED2_config.h"/>
     <property object="PA08" propertyId="pin.name" value="LED2"/>
     <property object="PA08" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB01" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_WL_CSX%T%sl_emlib_gpio_init_WL_CSX_config.h"/>
+    <property object="PB01" propertyId="pin.name" value="WL_CSX"/>
+    <property object="PB01" propertyId="pin.reserve" value="Reserved"/>
     <property object="PC02" propertyId="pin.name" value="AD_VA"/>
     <property object="PC03" propertyId="pin.name" value="AD_VB"/>
     <property object="PC04" propertyId="pin.name" value="RTS"/>
@@ -33,7 +40,7 @@
     <property object="PD03" propertyId="pin.reserve" value="Reserved"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.cts" value="2"/>
     <property object="PORTIO" propertyId="portio.eusart0.location.rts" value="3"/>
-    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="1"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="5"/>
     <property object="PORTIO" propertyId="portio.eusart1.enable.cts" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.eusart1.enable.rts" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.eusart1.enable.rx" value="Enabled"/>
@@ -51,8 +58,13 @@
     <property object="PORTIO" propertyId="portio.iadc0.location.pos" value="162"/>
     <property object="PORTIO" propertyId="portio.iadc0.location.scan0pos" value="163"/>
     <property object="PORTIO" propertyId="portio.iadc0.location.scan10pos" value="162"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.clk" value="6"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.rx" value="5"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.tx" value="32"/>
     <property object="PTI" propertyId="ABModule.selectedRequirement" value="pti%T%SL_RAIL_UTIL_PTI%T%sl_rail_util_pti_config.h"/>
     <property object="PTI" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
   </mode>
   <modeTransition>
     <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
