@@ -6,6 +6,10 @@
   -----app_process.cについてはapp_process_action関数がありこの関数がmain.cでwhileループしているのでapp_process.cにLチカができるように書き込みます。<br><br>
   -----"em_gpio.h""sl_udelay.h"はLED点灯用の.hファイルです。sl_udelay.hはslcpからMicrosecond delayをインストールしてください。<br><br>
   
-・今はIADCを使ってCPUの電圧を表示しようとしています。
+・2025/04/30
+最終調整を行いました。
+
+---できたこと　Lチカ、IADC、CPUの温度表示
+---できなかったこと LTC2431のIADCがうまくいきませんでした。
 
 
