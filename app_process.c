@@ -76,7 +76,7 @@
 #define LTC2431_CLK_PIN   6
 #define LTC2431_DAT_PORT  gpioPortA
 #define LTC2431_DAT_PIN   5
-#define LTC2431_VREF      0.00000001f
+#define LTC2431_VREF      0.55f
 
 
 
@@ -219,7 +219,7 @@ float read_ltc2431_software_spi()
 
   int timeout = 1000000;
   //DAT(SDO)のデータを取得もし取得できなかったら-999を返す
-  while (GPIO_PinInGet(LTC2431_DAT_PORT, LTC2431_DAT_PIN) == 1 && timeout--);
+  while (GPIO_PinInGet(LTC2431_DAT_PORT, LTC2431_DAT_PIN) == 0 && timeout--);
   if (timeout <= 0) {
     printf("LTC2431: EOC timeout. DAT pin stuck low.\r\n");
     printf(" \r\n");
@@ -236,7 +236,7 @@ float read_ltc2431_software_spi()
   GPIO_PinOutSet(LTC2431_CS_PORT, LTC2431_CS_PIN);
 
   //DAT(SDO)のデータを取得もし取得できなかったら-9999を返す
-  while (GPIO_PinInGet(LTC2431_DAT_PORT, LTC2431_DAT_PIN) == 1 && timeout--);
+  while (GPIO_PinInGet(LTC2431_DAT_PORT, LTC2431_DAT_PIN) == 0 && timeout--);
   if (timeout <= 0) {
     printf("LTC2431: EOC timeout. DAT pin stuck low.\r\n");
     printf(" \r\n");
@@ -281,12 +281,6 @@ float read_ltc2431_software_spi()
 
 
 
-
-
-
-
-
-
 // main loop
 void app_process_action(RAIL_Handle_t rail_handle)
 {
@@ -311,8 +305,8 @@ void app_process_action(RAIL_Handle_t rail_handle)
 
 
     // convert ADC value to Voltage value
-    float voltage_A = (adc_value_A * 3.3f/2) / 4096.0f;
-    float voltage_B = (adc_value_B * 3.3f/2) / 4096.0f;
+    float voltage_A = (adc_value_A * 3.3f) / 4096.0f;
+    float voltage_B = (adc_value_B * 3.3f) / 4096.0f;
 
     //get and convert cpu_CelsiusTemperture
     float cpu_temp = read_cpu_temperature_celsius();

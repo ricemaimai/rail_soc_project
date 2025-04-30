@@ -23,7 +23,7 @@
 // <gpioModeWiredAndAlternatePullUp=> Open-drain output with pull-up (alternate)
 // <gpioModeWiredAndAlternatePullUpFilter=> Open-drain output with pull-up and filter (alternate)
 // <i> Default: gpioModePushPull
-#define SL_EMLIB_GPIO_INIT_AVDD_EN_MODE        gpioModeWiredAnd
+#define SL_EMLIB_GPIO_INIT_AVDD_EN_MODE        gpioModePushPull
 
 // <o SL_EMLIB_GPIO_INIT_AVDD_EN_DOUT> DOUT <0-1>
 // <i> In push-pull mode: The drive direction for the pin

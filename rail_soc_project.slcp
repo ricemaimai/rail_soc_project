@@ -27,7 +27,7 @@ include:
   file_list:
   - {path: app_init.h}
   - {path: app_process.h}
-sdk: {id: gecko_sdk, version: 4.4.5}
+sdk: {id: gecko_sdk, version: 4.4.6}
 toolchain_settings:
 - {value: debug, option: optimize}
 component:
