@@ -3,7 +3,7 @@
 
 説明　：これはEFR32FG23B010F512IM40-Bのテスト用のプログラムです。<br><br>
 
-2025/03/03阪木
+2025/03/03
 ・Lチカができるようにapp_process.cに変更を行いました。<br><br>
 　-----slcpからGPIO Initをインストールし、新しいインスタンスを追加します。追加したインスタンスを設定でpin modeをopen_drain outputとします。SL_EMLIB_GPIO_INIT_インスタンス名　にはピンの設定を行ってください。<br><br>
   -----app_process.cについてはapp_process_action関数がありこの関数がmain.cでwhileループしているのでapp_process.cにLチカができるように書き込みます。<br><br>
